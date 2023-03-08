@@ -1,0 +1,314 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   background-color: white;
+}
+#container{
+ margin-top: 50px;
+ margin-left: 50px;
+   position: relative;
+   width: 1440px;
+   height: 1080px;
+   background: #E5E5E5;
+   
+}
+nav{
+    position: absolute;
+    width: 450px;
+    height: 48px;
+    left: 60px;
+    top: 39px;
+   z-index: 1;
+}
+
+.caixaG nav{
+    position: absolute;
+    width: 800px;
+    height: 48px;
+    left: 60px;
+    top: 39px;
+   z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content:  space-between;
+    align-items: top;
+    height: 48px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    opacity: 0px;
+    background-color: #E5E5E5;
+}
+.caixaG nav ul {
+    display: flex;
+    justify-content:  space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #C4C4C4;
+}
+
+nav ul li{
+   list-style-type: none;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 5px;
+    background-color: #E5E5E5;
+}
+
+.caixaG nav ul li{
+    margin-left: 50px;
+    list-style-type: none;
+     text-decoration: none;
+     background-color: #C4C4C4;
+ }
+
+nav ul li a{
+   list-style-type: none;
+    text-decoration: none;
+    background: #E5E5E5;
+  color: black;
+ }
+
+.caixaG nav ul li a{
+    list-style-type: none;
+     text-decoration: none;
+     background: #C4C4C4;
+   color: black;
+  }
+
+ img{
+    background-color: #C4C4C4;
+ }
+
+.logo{
+    background-color: #E5E5E5;
+}
+
+h6{
+    position: absolute;
+    width: 220px;
+    height: 45px;
+   left: 480px;
+   text-align: start;
+   top: 3px;
+   color: #9C9696;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 21px;
+}
+
+h6 img{
+   margin-right: 5px;
+   margin-top: 10px;
+   margin-left: 25px;
+background-color: white;
+
+}
+
+.caixaG{
+    position: absolute;
+    width: 900px;
+    height: 914px;
+    left: 540px;
+    background: #C4C4C4;
+    z-index: 0;
+
+}
+
+.bag{
+   margin-top: 14px;
+  background-color: #C4C4C4;
+  width: 25px;
+  height: 28px;
+
+}
+
+.container nav ul li a:link{
+color: white;
+}
+.container nav ul li a:visited{
+    color: white;
+}
+nav ul li a:hover{
+    background-color: #9C9696
+}
+
+.caixaG nav ul li a:link{
+    background-color: #9C9696
+}
+
+.caixaG nav ul li a:hover{
+    background-color: #E5E5E5;
+}
+
+/* -------------------- CONTEUDOS MAIN cinza claro-----------/**/
+
+.tenisE{
+   background-color: #E5E5E5;
+    position: absolute;
+    width: 357px;
+    height: 533px;
+    left: 30px;
+    top: 190px;
+}
+
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 70px;
+background-color: #E5E5E5;
+}
+
+h3{
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+    background-color: #E5E5E5;
+}
+
+.caixaV {
+    margin-top: 20px;
+    width: 274px;
+    height: 90px;
+    left: 111px;
+    border: solid 1px red;
+    background-color: red;
+   border-radius: 20px;
+   
+}
+
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+text-align: center;
+background-color: red;
+margin-top: 25px;
+color: white;
+
+}
+
+h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color:rgba(156, 150, 150, 1);
+margin-top: 15px;
+background-color: #E5E5E5;
+}
+/* --------------------  CONTEUDOS MAIN cinza escuro-----------/**/
+
+.tenisA{
+    position: absolute;
+    width: 597px;
+    height: 510px;
+    top: 174px;
+    left: 150px;
+    background: url(pair-trainers-removebg-preview.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
+
+.tenisB{
+    display: flex;
+  margin-top: 700px;
+gap: 35px;
+background-color: #C4C4C4;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.tenisC{
+    align-items: center;
+    background-color: #C4C4C4;
+}
+
+/* --------------------  CONTEUDOS FOOTER-----------/**/
+
+footer{
+ position: absolute;
+width: 1440px;
+height: 166.33px;
+left: 0px;
+top: 914px;
+background-color: #E5E5E5;
+
+}
+
+footer ul{
+    position: absolute;
+    display: flex;
+    gap: 50px;
+    width: 600px;
+    background-color: #E5E5E5;
+    top: 0px;
+   margin-left:300px;
+   
+    
+}
+footer ul li{
+ list-style-type: none;
+ display: inline;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 21px;
+ margin-top: 80px;
+ margin-left: 20px;
+ background-color: #E5E5E5;
+}
+
+
+
+.explore{
+    position: absolute;
+width: 437px;
+height: 166px;
+left: 1003px;
+top: 0px;
+
+background-color: #000000;
+
+}
+
+.explore h4{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    background-color: black;
+    color: #FFFFFF;
+    width: 167px;
+    left: 130px;
+    top: 35px
+
+
+
+}
+
+.seta{
+    position: absolute;
+    background-color: #000000;
+    left: 285px;
+    top: 61px;
+    
+
+}
